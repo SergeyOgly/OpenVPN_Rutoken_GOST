@@ -12,3 +12,4 @@ sed -i 's/lcrypto /lcrypto-1_1-x64 -L..\/..\/lib64 /' CMakeFiles/gost_engine.dir
 cmake --build . --config Release
 mkdir ../x86_64
 cp ../engine-1.1.0.3/bin/* ../x86_64/
+cd ..
